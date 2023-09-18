@@ -10,9 +10,15 @@ namespace Questao1prova1POO
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Digite o seu nome, por favor: ");
+            string nomeDoUsuario = Console.ReadLine();
+         
             //criei o objeto nome próprio
 
-            NomeProprio nomeProprio = new NomeProprio();
+            NomeProprio nomeProprio = new NomeProprio(nomeDoUsuario);
+            nomeProprio.Nome_rev_paper();
+
+            Console.Write("" + nomeProprio);
 
             
         }
