@@ -10,6 +10,7 @@ namespace Questao1prova1POO
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Questão 1: console");
         }
     }
 }
