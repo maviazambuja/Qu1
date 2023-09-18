@@ -10,7 +10,11 @@ namespace Questao1prova1POO
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Questão 1: console");
+            //criei o objeto nome próprio
+
+            NomeProprio nomeProprio = new NomeProprio();
+
+            
         }
     }
 }
